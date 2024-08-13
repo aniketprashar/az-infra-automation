@@ -15,13 +15,15 @@ This project demonstrates the use of Terraform for provisioning Azure resources,
 
 ### OIDC Authentication
 
-Not Configured: Currently, I don't have any free azure subscription. I am quite aware of how to setup authentication on Azure with Azure DevOps and Harness but haven't done OIDC authentication before. It should be similar to Azure devOps where we do the following steps.
+Configured Github Actions but did not deploy the azure resources as I don't have any free azure subscription. I am quite aware of how to setup authentication on Azure with Azure DevOps and Harness but haven't done OIDC authentication before. It should be similar to Azure DevOps where we do the following steps.
 
 - Create Azure AD Application
 - Create Service Principal
 - Create Client Secret
 - Add `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`, `AZURE_TENANT_ID`, `AZURE_SUBSCRIPTION_ID` as secret/variable.
 - Use these variables in the Azure Login pipeline step.
+
+So I have added these variables with dummy values in the github action workflow.
 
 ### Terraform Configuration
 
