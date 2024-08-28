@@ -1,6 +1,7 @@
 name: "Az Infra Automation Dev"
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
