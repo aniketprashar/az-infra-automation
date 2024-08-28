@@ -1,7 +1,3 @@
-data "azurerm_resource_group" "this" {
-  name = var.linux_virtual_machine.resource_group_name
-}
-
 resource "azurerm_network_interface" "this" {
   name                = "${var.linux_virtual_machine.name}-nic"
   location            = data.azurerm_resource_group.this.location

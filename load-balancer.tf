@@ -1,9 +1,3 @@
-data "azurerm_client_config" "current" {}
-
-data "azurerm_resource_group" "this" {
-  name = var.lb.resource_group_name
-}
-
 resource "azurerm_public_ip" "this" {
   name                = var.lb.pip_name
   location            = azurerm_resource_group.this.location
