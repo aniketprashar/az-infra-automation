@@ -43,7 +43,7 @@ linux_virtual_machine = {
   },
   admin_ssh_key = {
     admin_username = "aniketprashar",
-    public_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCy7G3OqJ7Gp3MZH8Z73G8k7aBhsB2zEXAMPLEKEYzKLNmNTxwJ0FrKDHTYMyVr7NmPzI7b+2i6S3i+oE6xxuHH7Q1LRbW4J4vFsqDDeKrPdd72UObRdeuN6Pz7+fPE8CgMZqx0jXghfpciFepQt4MrZP1Hg4nbn1NkVejsDFzkHt0B+MgMzVq5A4lO1JjFBoJ2uYrmAqwX3+v7RNTNu0ZBoqQo3uJzVtnCrkXNyIh0t9pZ/H4V8s7Fhng5fISGfR6+V6hJhWl+jC9IFQKZDpuXNa6NEbWuM8NeMb0wS9xvIt1PO7uFMIgHGH9u5N50G0vDHrM9uz1rh8AE3nWpMhd username@example.com"
+    public_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDlf/u04qE2fXcwbZ2fPT01d9vtk/RRLCc9q072SYB8Qu76eWWmN4L6fTCI0H5rmG+4qU0YTT/hyqcK/Nj6yFumVoNW6Pbwni0iRUA96cZOjpXJUtwgFH0Fc+L3PfElJU9RXpCXQkYSV4KnWgMjdhQmOxjRBje53uwZusyZWfvK6tvto7pp9qVytCsG2Yd/ZdekpwPrkRSZftTIxFqdOuEztmYYHEdynJ/RwcPrKdrTV5I/D4CqAqbHkpW7DSVIEnWtuWxyQkxJ1+zwaPnhSBRXkJE7rw3mqBxhukTSJM1lSnAmodXVEmCq3mvAmX0XcNT9JQZPvIHBlPc16nXBvEZHk/F/65bENYqqf1DUlAQ1O5uwOSs9MJyzdIM4gIcvTQGav+FigdiMncYoLpFMGa27zMOobx1SXJDskdlSRD38wuSQHtlFMzBC474cXWZg4Pp1smiOCykndQsvgNK4OsBoeXaPOuCGG8c4AVuLDYPWCvZuGVy1IAXCXqzL/2zFMt0= generated-by-azure"
   }
 }
 
