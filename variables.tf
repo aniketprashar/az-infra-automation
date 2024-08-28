@@ -6,8 +6,8 @@ variable "virtual_network" {
     dns_servers         = list(string),
     tags                = map(string),
     subnets = map(object({
-      name             = string,
-      address_prefixes = list(string),
+      name           = string,
+      address_prefix = string
     }))
   })
   description = "An object that defines the configuration of an Azure Virtual Network (VNet). This includes the VNet's name, the associated resource group, address space, DNS servers, and optional DDoS protection plan. Additionally, it supports a a map of object for detailed subnet configuration, including service endpoints, private link policies, route tables, and network security groups."
