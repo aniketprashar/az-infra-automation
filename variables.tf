@@ -34,6 +34,7 @@ variable "linux_virtual_machine" {
     private_ip_address_allocation = string,
     size                          = optional(string, "Standard_D4_v5"),
     tags                          = map(string),
+    admin_username                = string,
     os_disk = object({
       caching              = string,
       storage_account_type = string
