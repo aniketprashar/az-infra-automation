@@ -12,8 +12,8 @@ resource "azurerm_virtual_network" "this" {
   dynamic "subnet" {
     for_each = var.virtual_network.subnets
     content {
-      name           = var.virtual_network.subnet_name
-      address_prefix = var.virtual_network.address_prefixes
+      name           = each.value.name
+      address_prefix = each.value.address_prefixes
     }
   }
 }

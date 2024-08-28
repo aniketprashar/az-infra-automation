@@ -9,12 +9,9 @@ resource "azurerm_lb" "this" {
   name                = var.lb.name
   resource_group_name = data.azurerm_resource_group.this.name
   location            = data.azurerm_resource_group.this.location
-  dynamic "frontend_ip_configuration" {
-    for_each = var.lb.frontend_ip_configuration
-    content {
-      name                 = each.value.name
-      public_ip_address_id = azurerm_public_ip.this.id
-    }
+  frontend_ip_configuration {
+    name                 = var.lb.frontend_ip_configuration_name
+    public_ip_address_id = azurerm_public_ip.this.id
   }
 }
 

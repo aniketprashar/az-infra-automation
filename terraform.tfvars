@@ -14,13 +14,11 @@ virtual_network = {
 }
 
 lb = {
-  name                = "azccoedevlb01",
-  resource_group_name = "az-ccoedev-infra-automation",
-  allocation_method   = "Static"
-  pip_name            = "azccoedevpip01",
-  frontend_ip_congiguration = {
-    name = "PublicIPAddress"
-  }
+  name                           = "azccoedevlb01",
+  resource_group_name            = "az-ccoedev-infra-automation",
+  allocation_method              = "Static"
+  pip_name                       = "azccoedevpip01",
+  frontend_ip_configuration_name = "PublicIPAddress"
 }
 
 linux_virtual_machine = {

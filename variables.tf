@@ -19,14 +19,11 @@ variable "virtual_network" {
 
 variable "lb" {
   type = object({
-    name                = string,
-    resource_group_name = string,
-    allocation_method   = string,
-    pip_name            = string,
-    frontend_ip_congiguration = map(object({
-      name                 = string,
-      public_ip_address_id = string
-    }))
+    name                           = string,
+    resource_group_name            = string,
+    allocation_method              = string,
+    pip_name                       = string,
+    frontend_ip_configuration_name = string
   })
 }
 
