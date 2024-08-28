@@ -17,7 +17,6 @@ resource "azurerm_linux_virtual_machine" "this" {
   network_interface_ids = [azurerm_network_interface.this.id]
   admin_username        = var.linux_virtual_machine.admin_username
   zone                  = var.linux_virtual_machine.zone_list
-  source_image_id       = data.azurerm_shared_image_version.this.id
   admin_ssh_key {
     username   = var.linux_virtual_machine.admin_ssh_key.admin_username
     public_key = var.linux_virtual_machine.admin_ssh_key.public_key
