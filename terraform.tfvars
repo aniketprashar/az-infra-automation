@@ -3,11 +3,9 @@ virtual_network = {
   resource_group_name = "az-ccoedev-infra-automation"
   address_space       = ["10.0.0.0/16"]
   dns_servers         = ["10.0.0.4", "10.0.0.5"]
-  subnets = {
-    subnet01 = {
-      name           = "azccoedevsubnet01"
-      address_prefix = "10.0.1.0/24"
-    }
+  subnet = {
+    name           = "azccoedevsubnet01"
+    address_prefix = "10.0.1.0/24"
   }
   tags = {
     environment = "dev"
